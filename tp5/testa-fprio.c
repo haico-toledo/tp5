@@ -95,6 +95,7 @@ int main ()
   fprio_print (fp) ;
   printf ("\n") ;
 
+/*
   // cria e insere itens na FP
   printf ("Insere itens com prioridades crescentes:\n") ;
   for (int i = 0; i < 3; i++)
@@ -238,12 +239,13 @@ int main ()
     erro ("tamanho em fila NULL não retornou erro") ;
 
   printf ("\n") ;
-
+	*/
   // destroi a FP
   printf ("Destroi a fila:\n") ;
   fp = fprio_destroi (fp) ;
   fprio_print (fp) ;
   printf ("\n") ;
+	
 
   // encerra
   return (0) ;
